@@ -1,0 +1,10 @@
+server:
+  port: 1702
+  max-http-header-size: 1048576
+
+# 打印sql
+logging:
+  level:
+    com.cloud.node: debug
+  file: ./log/log
+
